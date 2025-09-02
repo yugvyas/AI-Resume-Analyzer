@@ -3,31 +3,39 @@
 # **AI Resume Analyzer - Build Your Own AI-Powered Job Application Assistant! 🚀**  
 
 ## **Overview**  
-This project is an **AI-powered Resume Matcher** that analyzes resumes against job descriptions and provides actionable insights to improve them. Whether you're applying for jobs or optimizing your resume, this tool helps you **boost your chances of getting hired!**  
+The **AI Resume Analyzer** is an advanced application that compares resumes with job descriptions, highlights **matching & missing skills**, provides a **resume score**, and generates **AI-driven suggestions** to improve your chances of landing a job. 
+
+Built with **Python, Streamlit, and Google Gemini AI**, this tool was customized and enhanced with additional analytics (`enhanced_analytics.py`) and extended logic beyond the base version I explored.  
+
+---
 
 ## **Features**  
-✅ Extract text from **PDF resumes**  
-✅ Process resumes using **Google Gemini AI**  
-✅ Compare resumes with job descriptions  
-✅ Generate **AI-powered resume scores & improvement suggestions**  
-✅ Build a user-friendly interface with **Streamlit**  
+✅ Upload and analyze resumes in **PDF format**  
+✅ Extract and process text using **PyMuPDF**  
+✅ Compare resume content with job descriptions  
+✅ Highlight **matching skills** and **gaps**  
+✅ Generate a **resume score** with improvement tips  
+✅ **Interactive dashboard** using Streamlit  
+✅ Extended analytics with `enhanced_analytics.py`  
+
+---
 
 ## **Installation & Setup**  
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/Venkatesh0610/Resume-Analyzer.git 
-cd AI-Resume-Matcher
+git clone https://github.com/yugvyas45/AI-Resume-Analyzer.git
+cd AI-Resume-Analyzer
 ```
 
 ### **2️⃣ Install Required Libraries**  
 ```bash
-pip install pymupdf Pillow google-generativeai python-dotenv streamlit pandas plotly-express
+pip install -r requirements.txt
 ```
 
 ### **3️⃣ Set Up API Keys**  
-- Get an API key from **Google Gemini AI**  
-- Create a `.env` file and add:  
+-Get your Google Gemini AI API key.
+-Create a .env file and add:
   ```
   GEMINI_API_KEY=your_api_key_here
   ```
@@ -52,48 +60,46 @@ streamlit run app.py
 
 ---
 
-## **Project Structure**  
-```
-📂 AI-Resume-Matcher  
- ┣ 📂 pdf_images/         # Stores converted resume images  
- ┣ 📜 app.py              # Main Streamlit UI  
- ┣ 📜 analyzer.py         # AI processing logic  
- ┣ 📜 requirements.txt    # Python dependencies  
- ┣ 📜 .env.example        # API key setup guide  
- ┗ 📜 README.md           # Project documentation  
-```
+Project Structure
+📂 AI-Resume-Analyzer  
+ ┣ 📂 pdf_images/            # Temporary resume images  
+ ┣ 📜 app.py                 # Main Streamlit app  
+ ┣ 📜 analyzer.py            # Resume analysis logic  
+ ┣ 📜 enhanced_analytics.py  # Extended analytics & improvements  
+ ┣ 📜 requirements.txt       # Python dependencies  
+ ┣ 📜 .gitignore             # Ignored files config  
+ ┗ 📜 README.md              # Documentation  
+
+Future Enhancements
+
+🚀 Add batch resume analysis (multiple resumes at once)
+🚀 Export results to PDF/Excel reports
+🚀 Add ATS (Applicant Tracking System) compatibility check
+🚀 Support multilingual resumes
+🚀 Deploy to Streamlit Cloud / Hugging Face Spaces
 
 --- 
 
-🔗**Watch the full tutorial on YouTube**: 
 
-[![Watch the video](https://img.youtube.com/vi/QBExhbLXlJc/0.jpg)](https://youtu.be/QBExhbLXlJc?si=9ApFrJw1oSjC_zcp)
+Author
 
----
+👤 Yug Vyas
 
-## **Timestamps:**  
-- **0:00** Introduction  
-- **0:29** Output Demo  
-- **1:06** Installing Required Libraries  
-- **1:33** Importing Libraries  
-- **2:00** Converting PDF to Image  
-- **2:24** Processing Resume with AI  
-- **3:00** Building UI  
-- **3:30** Displaying Results  
-- **3:52** End  
+🎓 Student at IIT Jodhpur (BS in AI & DS + B.Tech CSE)
 
----
+💻 AI & Web Developer | ML Enthusiast
 
-## **Contributing**  
-Pull requests are welcome! If you’d like to contribute, fork the repo and submit a PR.  
+🌐 LinkedIn
+ | GitHub
+
+Acknowledgment
+
+This project was inspired by Venkatesh0610's Resume Analyzer
+.
+I built upon the idea and added significant modifications, improvements, and custom analytics.
+
+⭐ Don’t forget to star this repo if you find it helpful!
 
 ---
 
-## **Connect with Me**  
-📌 **YouTube**: [@avenkatesh0610](https://youtube.com/@avenkatesh0610)  
-📌 **LinkedIn**: [Venkatesh A](https://www.linkedin.com/in/venkatesh-a-400459191/)  
-📌 **GitHub**: [Venkatesh0610](https://github.com/Venkatesh0610)  
-
----
-
-### **Don’t forget to ⭐ the repo if you found it helpful!** 🚀
+👉 Do you want me to also **generate a fresh `requirements.txt`** for you (based on your files `app.py`, `analyzer.py`, and `enhanced_analytics.py`), so anyone can install the dependencies in one go?
