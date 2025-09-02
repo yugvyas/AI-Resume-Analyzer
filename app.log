@@ -1,0 +1,165 @@
+2025-08-31 12:07:47,046 - INFO - Starting the script...
+2025-08-31 12:07:47,047 - ERROR - GENAI_API_KEY is not set. Please check your .env file.
+2025-08-31 12:15:22,656 - INFO - Starting the script...
+2025-08-31 12:15:22,657 - ERROR - GENAI_API_KEY is not set. Please check your .env file.
+2025-08-31 12:17:13,320 - INFO - Starting the script...
+2025-08-31 12:17:13,320 - ERROR - GENAI_API_KEY is not set. Please check your .env file.
+2025-08-31 12:23:47,044 - INFO - Starting the script...
+2025-08-31 12:23:47,044 - INFO - GenAI API configured successfully.
+2025-08-31 12:24:48,983 - INFO - Starting the script...
+2025-08-31 12:24:48,983 - INFO - GenAI API configured successfully.
+2025-08-31 12:40:00,523 - INFO - Converting PDF 'C:\Users\HP\Downloads\project resume analyzer\Resume-Analyzer-main\Resume-Analyzer-main\Screenshot 2025-08-31 123514.pdf' to images...
+2025-08-31 12:40:00,551 - INFO - Opened PDF: C:\Users\HP\Downloads\project resume analyzer\Resume-Analyzer-main\Resume-Analyzer-main\Screenshot 2025-08-31 123514.pdf with 1 pages.
+2025-08-31 12:40:00,960 - INFO - Saved image: pdf_images\page_1.jpg
+2025-08-31 12:40:00,961 - INFO - Processing file: pdf_images\page_1.jpg with type image
+2025-08-31 12:40:10,517 - INFO - JSON data successfully saved to result.json
+2025-08-31 12:40:10,587 - INFO - Processing file: [{'name': 'Jason Miller', 'title': 'Amazon Associate', 'profile': "Experienced Amazon Associate with five years' tenure in a shipping yard setting, maintaining an average picking/packing speed of 98%. Holds a zero error% score in adhering to packing specs and 97% error-free ratio on packing records. Completed a certificate in Warehouse Sanitation and has a valid commercial driver's license.", 'employmentHistory': [{'title': 'Amazon Warehouse Associate', 'company': 'Amazon', 'location': 'Miami Gardens', 'dates': 'January 2021 - July 2022', 'responsibilities': ['Performed all warehouse laborer duties such as packing, picking, counting, record keeping, and maintaining a clean area.', 'Consistently maintained picking/packing speeds in the 98th percentile.', 'Picked all orders with 100% accuracy despite high speeds.', 'Maintained a clean work area, meeting 97.5% of the inspection requirements.']}, {'title': 'Laboratory Inventory Assistant', 'company': 'Dunrea Laboratories', 'location': 'Orlando', 'dates': 'January 2019 - December 2020', 'responsibilities': ['Full-time lab assistant in a small, regional laboratory tasked with participating in Kaizen Events, Gemba walks, and 5S to remove barriers and improve productivity.', 'Filled the warehouse helper job description, which involved picking, packing, shipping, inventory management, and cleaning equipment.', 'Saved 12% on UPS orders by staying on top of special deals.', 'Cut down storage waste by 23% by switching to a Kanban system.']}], 'education': [{'degree': 'Associates Degree in Logistics and Supply Chain Fundamentals', 'institution': 'Atlanta Technical College', 'location': 'Atlanta', 'dates': 'January 2021 - July 2022', 'majors': ['Warehousing Operations', 'Logistics and Distribution Practices'], 'minors': ['Inventory Systems', 'Supply Chain Principles']}, {'degree': 'Online Graduate Certificate in Warehousing & Supply Chain Management', 'institution': 'Southern New Hampshire University (SNHU)', 'location': 'NH', 'dates': 'July 2022 - July 2022'}], 'details': {'address': '1515 Pacific Ave\nLos Angeles, CA 90291\nUnited States', 'phone': '3868683442', 'email': 'email@email.com', 'placeOfBirth': 'San Antonio', 'drivingLicense': 'Full'}, 'links': ['Linkedin', 'Pinterest', 'Resume Templates'], 'skills': ['Cleaning Equipment', 'Cleaning Equipment', 'Mathematics', 'Cleaning Equipment', 'Deep Sanitation Practices'], 'hobbies': ['Action Cricket', 'Rugby', 'Athletics'], 'languages': ['English', 'Spanish']}] with type text
+2025-08-31 12:40:12,799 - INFO - Text processing response: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"overall_score\": 70,\n  \"keyword_matching\": [\"picking\", \"packing\", \"shipping\", \"inventory management\", \"warehouse operations\", \"Lean/Six Sigma methodologies\", \"Warehouse safety & sanitation practices\", \"Excel\", \"English\", \"Spanish\"],\n  \"missing_keywords\": [\"SQL\", \"ERP systems\", \"data analysis with Power BI\", \"Project management certification\"],\n  \"suggestions\": [\n    \"Quantify accomplishments with numbers in experience section (e.g., 'Improved efficiency by 15%').\",\n    \"Add specific examples of using Excel for data analysis and KPI tracking.\",\n    \"Highlight experience with ERP systems, if any.\",\n    \"Add SQL skills to the skills section and provide examples if proficient.\", \n    \"Mention any project management experience or certifications (even informal ones).\",\n    \"Clearly state experience with Lean/Six Sigma methodologies (mention specific projects or tools used).\"\n  ],\n  \"important_keys\": [\"experience\", \"skills\", \"education\"]\n}\n```\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.20904595269097223
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1909,
+        "candidates_token_count": 225,
+        "total_token_count": 2134
+      },
+      "model_version": "gemini-1.5-flash-002"
+    }),
+)
+2025-08-31 12:40:12,800 - INFO - JSON data successfully saved to result.json
+2025-08-31 17:45:43,785 - INFO - Starting the script...
+2025-08-31 17:45:43,786 - INFO - GenAI API configured successfully.
+2025-08-31 17:46:43,560 - INFO - Starting the script...
+2025-08-31 17:46:43,560 - INFO - GenAI API configured successfully.
+2025-08-31 17:46:58,436 - INFO - Starting the script...
+2025-08-31 17:46:58,436 - INFO - GenAI API configured successfully.
+2025-08-31 19:42:35,754 - INFO - Starting the script...
+2025-08-31 19:42:35,755 - INFO - GenAI API configured successfully.
+2025-08-31 19:51:32,862 - INFO - Starting the script...
+2025-08-31 19:51:32,862 - INFO - GenAI API configured successfully.
+2025-08-31 19:51:48,399 - INFO - Starting the script...
+2025-08-31 19:51:48,400 - INFO - GenAI API configured successfully.
+2025-08-31 19:52:26,413 - INFO - Starting the script...
+2025-08-31 19:52:26,413 - INFO - GenAI API configured successfully.
+2025-08-31 19:53:58,917 - INFO - Starting the script...
+2025-08-31 19:53:58,918 - INFO - GenAI API configured successfully.
+2025-08-31 19:54:46,160 - INFO - Starting the script...
+2025-08-31 19:54:46,160 - INFO - GenAI API configured successfully.
+2025-08-31 19:55:05,636 - INFO - Starting the script...
+2025-08-31 19:55:05,636 - INFO - GenAI API configured successfully.
+2025-08-31 19:55:19,250 - INFO - Starting the script...
+2025-08-31 19:55:19,251 - INFO - GenAI API configured successfully.
+2025-08-31 19:56:41,798 - INFO - Starting the script...
+2025-08-31 19:56:41,798 - INFO - GenAI API configured successfully.
+2025-08-31 19:57:33,289 - INFO - Starting the script...
+2025-08-31 19:57:33,289 - INFO - GenAI API configured successfully.
+2025-08-31 20:07:40,378 - INFO - Starting the script...
+2025-08-31 20:07:40,379 - INFO - GenAI API configured successfully.
+2025-08-31 20:08:53,943 - INFO - Starting the script...
+2025-08-31 20:08:53,944 - INFO - GenAI API configured successfully.
+2025-08-31 21:34:26,402 - INFO - Starting the script...
+2025-08-31 21:34:26,402 - INFO - GenAI API configured successfully.
+2025-08-31 21:35:42,683 - INFO - Starting the script...
+2025-08-31 21:35:42,684 - INFO - GenAI API configured successfully.
+2025-08-31 21:36:11,139 - INFO - Starting the script...
+2025-08-31 21:36:11,139 - INFO - GenAI API configured successfully.
+2025-08-31 21:42:17,266 - INFO - Starting the script...
+2025-08-31 21:42:17,266 - INFO - GenAI API configured successfully.
+2025-08-31 21:43:32,607 - INFO - Starting the script...
+2025-08-31 21:43:32,607 - INFO - GenAI API configured successfully.
+2025-08-31 21:47:07,498 - INFO - Starting the script...
+2025-08-31 21:47:07,499 - INFO - GenAI API configured successfully.
+2025-08-31 21:55:10,036 - INFO - Starting the script...
+2025-08-31 21:55:10,037 - INFO - GenAI API configured successfully.
+2025-08-31 21:55:56,448 - INFO - Starting the script...
+2025-08-31 21:55:56,449 - INFO - GenAI API configured successfully.
+2025-08-31 21:56:11,832 - INFO - Starting the script...
+2025-08-31 21:56:11,832 - INFO - GenAI API configured successfully.
+2025-08-31 22:21:35,247 - INFO - Page 1 requires OCR processing
+2025-08-31 22:21:35,281 - ERROR - Error extracting text from PDF: document closed
+2025-08-31 22:31:46,933 - INFO - Starting the script...
+2025-08-31 22:31:46,940 - INFO - GenAI API configured successfully.
+2025-08-31 22:32:03,770 - ERROR - Error extracting text from PDF: document closed
+2025-08-31 22:33:48,531 - ERROR - Error extracting text from PDF: document closed
+2025-08-31 23:25:33,794 - INFO - Starting the script...
+2025-08-31 23:25:33,795 - INFO - GenAI API configured successfully.
+2025-08-31 23:26:31,175 - INFO - Processing file:  with type text
+2025-08-31 23:26:35,564 - INFO - JSON data successfully saved to result.json
+2025-08-31 23:26:36,645 - ERROR - Error: module 'streamlit' has no attribute 'experimental_rerun'
+2025-08-31 23:27:21,293 - INFO - Starting the script...
+2025-08-31 23:27:21,293 - INFO - GenAI API configured successfully.
+2025-08-31 23:27:32,810 - INFO - Starting the script...
+2025-08-31 23:27:32,810 - INFO - GenAI API configured successfully.
+2025-08-31 23:27:46,948 - INFO - Processing file:  with type text
+2025-08-31 23:27:51,117 - INFO - JSON data successfully saved to result.json
+2025-09-01 15:08:08,178 - INFO - Starting the script...
+2025-09-01 15:08:08,179 - INFO - GenAI API configured successfully.
+2025-09-01 15:08:46,719 - INFO - Processing file:  with type text
+2025-09-01 15:08:51,621 - INFO - JSON data successfully saved to result.json
+2025-09-01 15:41:08,403 - INFO - Starting the script...
+2025-09-01 15:41:08,404 - INFO - GenAI API configured successfully.
+2025-09-01 15:41:25,327 - INFO - Starting the script...
+2025-09-01 15:41:25,327 - INFO - GenAI API configured successfully.
+2025-09-01 15:41:53,852 - INFO - Processing file:  with type text
+2025-09-01 15:41:56,875 - INFO - JSON data successfully saved to result.json
+2025-09-01 15:48:10,550 - INFO - Starting the script...
+2025-09-01 15:48:10,551 - INFO - GenAI API configured successfully.
+2025-09-01 15:48:32,142 - INFO - Processing file:  with type text
+2025-09-01 15:48:35,854 - INFO - JSON data successfully saved to result.json
+2025-09-01 16:00:26,971 - INFO - Starting the script...
+2025-09-01 16:00:26,976 - INFO - GenAI API configured successfully.
+2025-09-01 16:01:21,850 - INFO - Processing file:  with type text
+2025-09-01 16:01:25,190 - INFO - JSON data successfully saved to result.json
+2025-09-01 16:11:07,736 - INFO - Processing file:  with type text
+2025-09-01 16:11:12,066 - INFO - JSON data successfully saved to result.json
+2025-09-01 16:13:07,293 - INFO - Starting the script...
+2025-09-01 16:13:07,293 - INFO - GenAI API configured successfully.
+2025-09-01 16:13:28,565 - INFO - Sending request to Gemini API...
+2025-09-01 16:13:28,565 - INFO - Processing file:  with type text
+2025-09-01 16:13:32,356 - INFO - Raw API Response: ```json
+{
+  "overall_score": 65,
+  "ats_score": 58.57575757575757,
+  "keyword_matching": ["warehouse operations", "picking", "packing", "shipping", "inventory management", "process improvement", "Kaizen", "Lean", "SQL", "Excel", "logistics"],
+  "missing_keywords": ["ERP systems", "supply chain", "on-time deliveries", "data analysis", "Power BI", "project management", "supplier collaboration", "logistics partners", "Six Sigma", "KPI tracking"],
+  "suggestions": [
+    "Quantify accomplishments with specific data whenever possible (e.g., 'Improved order fulfillment by 15% by implementing X').",
+    "Expand on experience with SQL and database tools, providing specific examples of usage.",
+    "Showcase experience with ERP systems (if any) and explicitly mention them.",
+    "Detail involvement in process improvement projects using Lean/Six Sigma methodologies, highlighting specific contributions and results.",
+    "Add a dedicated skills section summarizing relevant keywords and quantifiable achievements.",
+    "Describe experience collaborating with suppliers and logistics partners.",
+    "Mention any experience with KPI tracking and analysis, including specific KPIs used.",
+    "Highlight experience with warehouse safety and sanitation practices.",
+    "If proficient, mention experience with Power BI.",
+    "If applicable, mention any project management certifications or experience."
+  ],
+  "section_scores": {
+    "experience": 70,
+    "skills": 60,
+    "education": 80
+  },
+  "critical_improvements": [
+    "Quantify achievements and provide more detail on specific responsibilities and accomplishments in each role.",
+    "Add a dedicated skills section and highlight relevant keywords from the job description."
+  ]
+}
+```
+2025-09-01 16:13:32,357 - INFO - Parsed JSON data: {'overall_score': 65, 'ats_score': 58.57575757575757, 'keyword_matching': ['warehouse operations', 'picking', 'packing', 'shipping', 'inventory management', 'process improvement', 'Kaizen', 'Lean', 'SQL', 'Excel', 'logistics'], 'missing_keywords': ['ERP systems', 'supply chain', 'on-time deliveries', 'data analysis', 'Power BI', 'project management', 'supplier collaboration', 'logistics partners', 'Six Sigma', 'KPI tracking'], 'suggestions': ["Quantify accomplishments with specific data whenever possible (e.g., 'Improved order fulfillment by 15% by implementing X').", 'Expand on experience with SQL and database tools, providing specific examples of usage.', 'Showcase experience with ERP systems (if any) and explicitly mention them.', 'Detail involvement in process improvement projects using Lean/Six Sigma methodologies, highlighting specific contributions and results.', 'Add a dedicated skills section summarizing relevant keywords and quantifiable achievements.', 'Describe experience collaborating with suppliers and logistics partners.', 'Mention any experience with KPI tracking and analysis, including specific KPIs used.', 'Highlight experience with warehouse safety and sanitation practices.', 'If proficient, mention experience with Power BI.', 'If applicable, mention any project management certifications or experience.'], 'section_scores': {'experience': 70, 'skills': 60, 'education': 80}, 'critical_improvements': ['Quantify achievements and provide more detail on specific responsibilities and accomplishments in each role.', 'Add a dedicated skills section and highlight relevant keywords from the job description.']}
+2025-09-01 16:13:32,359 - INFO - JSON data successfully saved to result.json
+2025-09-01 16:13:32,546 - INFO - Final analysis result: {'overall_score': 65, 'ats_score': 58.57575757575757, 'keyword_matching': ['warehouse operations', 'picking', 'packing', 'shipping', 'inventory management', 'process improvement', 'Kaizen', 'Lean', 'SQL', 'Excel', 'logistics'], 'missing_keywords': ['ERP systems', 'supply chain', 'on-time deliveries', 'data analysis', 'Power BI', 'project management', 'supplier collaboration', 'logistics partners', 'Six Sigma', 'KPI tracking'], 'suggestions': ["Quantify accomplishments with specific data whenever possible (e.g., 'Improved order fulfillment by 15% by implementing X').", 'Expand on experience with SQL and database tools, providing specific examples of usage.', 'Showcase experience with ERP systems (if any) and explicitly mention them.', 'Detail involvement in process improvement projects using Lean/Six Sigma methodologies, highlighting specific contributions and results.', 'Add a dedicated skills section summarizing relevant keywords and quantifiable achievements.', 'Describe experience collaborating with suppliers and logistics partners.', 'Mention any experience with KPI tracking and analysis, including specific KPIs used.', 'Highlight experience with warehouse safety and sanitation practices.', 'If proficient, mention experience with Power BI.', 'If applicable, mention any project management certifications or experience.'], 'section_scores': {'experience': 70, 'skills': 60, 'education': 80}, 'critical_improvements': ['Quantify achievements and provide more detail on specific responsibilities and accomplishments in each role.', 'Add a dedicated skills section and highlight relevant keywords from the job description.'], 'ats_breakdown': {'keyword_density': 22.727272727272727, 'section_structure': 75.0, 'formatting': 78, 'overall_ats_score': 58.57575757575757}}

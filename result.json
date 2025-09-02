@@ -1,0 +1,50 @@
+{
+    "overall_score": 65,
+    "ats_score": 58.57575757575757,
+    "keyword_matching": [
+        "warehouse operations",
+        "picking",
+        "packing",
+        "shipping",
+        "inventory management",
+        "process improvement",
+        "Kaizen",
+        "Lean",
+        "SQL",
+        "Excel",
+        "logistics"
+    ],
+    "missing_keywords": [
+        "ERP systems",
+        "supply chain",
+        "on-time deliveries",
+        "data analysis",
+        "Power BI",
+        "project management",
+        "supplier collaboration",
+        "logistics partners",
+        "Six Sigma",
+        "KPI tracking"
+    ],
+    "suggestions": [
+        "Quantify accomplishments with specific data whenever possible (e.g., 'Improved order fulfillment by 15% by implementing X').",
+        "Expand on experience with SQL and database tools, providing specific examples of usage.",
+        "Showcase experience with ERP systems (if any) and explicitly mention them.",
+        "Detail involvement in process improvement projects using Lean/Six Sigma methodologies, highlighting specific contributions and results.",
+        "Add a dedicated skills section summarizing relevant keywords and quantifiable achievements.",
+        "Describe experience collaborating with suppliers and logistics partners.",
+        "Mention any experience with KPI tracking and analysis, including specific KPIs used.",
+        "Highlight experience with warehouse safety and sanitation practices.",
+        "If proficient, mention experience with Power BI.",
+        "If applicable, mention any project management certifications or experience."
+    ],
+    "section_scores": {
+        "experience": 70,
+        "skills": 60,
+        "education": 80
+    },
+    "critical_improvements": [
+        "Quantify achievements and provide more detail on specific responsibilities and accomplishments in each role.",
+        "Add a dedicated skills section and highlight relevant keywords from the job description."
+    ]
+}
